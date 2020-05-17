@@ -1,7 +1,7 @@
 #folha{
-    width: 595px;
+    width: 700px;
     height: 842px;
-    border: 1px solid darkcyan;
+    border: 1px solid black;
     margin: auto;
     position: relative;
 }
@@ -20,13 +20,27 @@
     margin-top: 60px;
     margin-left: 20px;
     font-family: Arial;
-    font-size: 29px;
+    font-size: 22px;
 }
 
 #nasc{
     position: absolute;
     margin-top: 100px;
     margin-left: 205px;
+}
+
+.links ul li {
+    color: white;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.links ul li {
+
+    width: 13%;
+    float: left;
+
 }
 
 .aba{
@@ -42,10 +56,16 @@
 }
 
 .sep{
-    width: 100%;
+    width: 130%;
     height: 2px;
-    color: black;
+    color:black;
     background: black;
+}
+
+.sep h2{
+    width="420" 
+    height="340"
+    position: padding: ;
 }
 
 .dados{
@@ -77,12 +97,4 @@ img{
     float: left;
 }
 
-.links{
-    width: 100%;
-    height: 2px;
-    color: black;
-    background: black;
-    font-family: sans-serif;
-    float: right;
-}
-}
+
